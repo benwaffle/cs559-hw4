@@ -1,0 +1,7 @@
+#+LaTeX_CLASS: article
+#+OPTIONS: toc:nil date:nil
+#+TITLE: HW4
+#+AUTHOR: Ben Iofel
+
+1) We minimize $||\bar{w}||$ because the width of the margin between the support vectors is given by $\frac{2}{||\bar{w}||}$. By maximizing the margin we create the largest distance between classes, making it easier to classify new points. Now, minimizing $\frac{2}{||\bar{w}||}$ is equivalent to minimizing $\frac{1}{2}||\bar{w}||^2$, which is a good function because it has a single global minimum and can be optimized using quadratic programming.
+2)
